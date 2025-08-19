@@ -1,9 +1,9 @@
-#include <iostream.h>
+#include <iostream>
 
 int main(void)
 {
-    cout<< "Hello World!!" <<endl;
-    cout<< "Hello" << "World!!" <<endl;
-    cout<< 'a' << "Sting" <<endl;
+    std::cout<< "Hello World!!" <<std::endl;
+    std::cout<< "Hello" << "World!!" <<std::endl;
+    std::cout<<1<< 'a' << "Sting" <<std::endl;
     return 0;
 }
